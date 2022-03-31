@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#header {
+  width: 100%;
+  display: inline-flex;
+  background-color: #39C958;
+}
+
+h2 {
+  color: aliceblue;
+}
+
+#sections {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#logo {
+  width: 170px;
+}
+
+#lupa {
+  width: 23px;
+  margin-right: 5px;
+}
+
+#input-search {
+  height: 100%;
+  margin-right: 20px;
+  padding-right: 50px;
+}
+
+#search {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border: 10px;
+  padding-bottom: 10px;
+  padding-top: 8px;
+}
+
+/* table, th, td {
+  width: 1250px;
+  margin: 20px;
+  border: 1px solid black;
+} */
+
+.link {
+  text-decoration:none;
+}
+
+#tablee {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+td {
+  border-right: 1px solid rgb(211, 207, 207);
+  padding-right: 50px;
+  padding-left: 50px;
+  text-align: center;
+}
+
+th {
+  padding-top: 5px;
+  border-right: 1px solid rgb(211, 207, 207);
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.regiao {
+  background-color: rgb(95, 90, 90);
+  color: aliceblue;
+  text-align: center;
+  padding: 5px;
+  margin: 0px;
+}
+
+.camp {
+  background-color: #39C958;
+  color: aliceblue;
+  text-align: center;
+  padding: 5px;
+  margin: 0px;
+}
+
+#regulament {
+  padding: 20px;
+}
+
+.title-regulament {
+  text-align: center;
+}
+
+#form-bilhete {
+  text-align: center;
+}
+
+#input-bilhete {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-right: 300px;
+}
