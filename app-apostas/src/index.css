@@ -64,14 +64,18 @@ h2 {
 }
 
 #tablee {
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
 }
 
 td {
   border-right: 1px solid rgb(211, 207, 207);
+  border-left: 1px solid rgb(211, 207, 207);
+  border-bottom: 1px solid rgb(211, 207, 207);
   padding-right: 50px;
   padding-left: 50px;
   text-align: center;
@@ -80,6 +84,7 @@ td {
 th {
   padding-top: 5px;
   border-right: 1px solid rgb(211, 207, 207);
+  border-left: 1px solid rgb(211, 207, 207);
   padding-right: 50px;
   padding-left: 50px;
 }
@@ -89,7 +94,8 @@ th {
   color: aliceblue;
   text-align: center;
   padding: 5px;
-  margin: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .camp {
@@ -116,4 +122,95 @@ th {
   margin-left: 5px;
   margin-right: 5px;
   padding-right: 300px;
+}
+
+#mais {
+  background-color: rgb(209, 245, 245);
+}
+
+@media only screen and (max-width: 800px){
+  #header{
+    width: 150vw !important;
+  }
+  #logo {
+    height: 100px !important;
+    width: 200px !important;
+  }
+  .link {
+    font-size: 130% !important;
+  }
+  #search {
+    height: 35px !important;
+    width: 140%;
+  }
+  #lupa {
+    width: 40px;
+  }
+  #input-search {
+    font-size: 130%;
+    border: 1px solid black;
+  }
+  #tablee {
+    width: 140%;
+    font-size: 130%;
+  }
+  td {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  th {
+    border-right: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+  }
+}
+
+@media only screen and (max-width: 606px){
+  #header{
+    width: 290vw !important;
+  }
+  #logo {
+    height: 150px !important;
+    width: 310px !important;
+  }
+  .link {
+    font-size: 200% !important;
+  }
+  #search {
+    height: 70px !important;
+    width: 280%;
+  }
+  #lupa {
+    width: 70px;
+  }
+  #input-search {
+    font-size: 200%;
+    border: 2px solid black;
+  }
+  #tablee {
+    width: 280%;
+    font-size: 270%;
+  }
+}
+
+@media only screen and (max-width: 430px){
+  #header{
+    width: 380vw !important;
+  }
+  #search {
+    width: 360%;
+  }
+  #input-search {
+    font-size: 250%;
+  }
+  #tablee {
+    width: 370%;
+    font-size: 300%;
+  }
+}
+
+@media only screen and (max-width: 346px){
+  #header{
+    width: 420vw !important;
+  }
 }
