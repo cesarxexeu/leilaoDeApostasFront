@@ -163,6 +163,26 @@ th {
     border-right: 1px solid rgb(0, 0, 0);
     border-left: 1px solid rgb(0, 0, 0);
   }
+  .title-regulament {
+    width: 150%;
+    font-size: 150%;
+  }
+  #regulament {
+    width: 145%;
+    font-size: 160%;
+  }
+  #form-bilhete {
+    width: 150%;
+    font-size: 160%;
+  }
+  #input-bilhete {
+    font-size: 100%;
+    border: 1px solid black;
+  }
+  #button-bilhete {
+    width: 100px;
+    font-size: 90%;
+  }
 }
 
 @media only screen and (max-width: 606px){
@@ -191,6 +211,26 @@ th {
     width: 280%;
     font-size: 270%;
   }
+  .title-regulament {
+    width: 300%;
+    font-size: 250%;
+  }
+  #regulament {
+    width: 280%;
+    font-size: 280%;
+  }
+  #form-bilhete {
+    width: 300%;
+    font-size: 300%;
+  }
+  #input-bilhete {
+    font-size: 100%;
+    border: 1px solid black;
+  }
+  #button-bilhete {
+    width: 200px;
+    font-size: 90%;
+  }
 }
 
 @media only screen and (max-width: 430px){
@@ -206,6 +246,46 @@ th {
   #tablee {
     width: 370%;
     font-size: 300%;
+  }
+  .title-regulament {
+    width: 300%;
+    font-size: 250%;
+  }
+  #regulament {
+    width: 280%;
+    font-size: 280%;
+  }
+  #form-bilhete {
+    width: 300%;
+    font-size: 300%;
+  }
+  #input-bilhete {
+    font-size: 100%;
+    border: 1px solid black;
+  }
+  #button-bilhete {
+    width: 200px;
+    font-size: 90%;
+  }
+  .title-regulament {
+    width: 370%;
+    font-size: 280%;
+  }
+  #regulament {
+    width: 360%;
+    font-size: 300%;
+  }
+  #form-bilhete {
+    width: 300%;
+    font-size: 300%;
+  }
+  #input-bilhete {
+    font-size: 100%;
+    border: 1px solid black;
+  }
+  #button-bilhete {
+    width: 200px;
+    font-size: 90%;
   }
 }
 
