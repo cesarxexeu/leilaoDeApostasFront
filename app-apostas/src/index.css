@@ -18,8 +18,17 @@ code {
   background-color: #39C958;
 }
 
-h2 {
+h2, h3, h4 {
   color: aliceblue;
+  font-size: 140% !important;
+}
+
+h2 {
+  margin-bottom: 0px !important;
+}
+
+#futebol h4 {
+  margin-bottom: 0px;
 }
 
 #sections {
@@ -49,7 +58,7 @@ h2 {
   align-items: center;
   justify-content: flex-end;
   border: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 12px;
   padding-top: 8px;
 }
 
@@ -64,15 +73,107 @@ h2 {
 }
 
 #tablee {
+  margin-top: 20px;
+  background-color: #61946d;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 30px;
-  padding-left: 30px;
-  padding-bottom: 30px;
+  margin-right: 250px;
+  margin-left: 250px;
+  border-radius: 10px;
+  font-size: 80%;
+  margin-bottom: 50px;
 }
 
-td {
+#head {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+}
+
+#apostas {
+  margin: 0px;
+  margin-left: 30px !important;
+  color: aliceblue;
+}
+
+#futebol {
+  margin-right: 30px !important;
+  margin-bottom: 0px !important;
+  color:aliceblue;
+}
+
+.jogo{
+  display: flex;
+  justify-content: space-between;
+  background-color: #7fa588;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid black;
+}
+
+.primeiraParte {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.primeiraParte p {
+  margin-bottom: 0px !important;
+}
+
+.dentroSegunda {
+  display: flex;
+  justify-content: space-between;
+  width: 260px;
+}
+
+.dentroSegunda p, h3 {
+  margin: 0px !important;
+}
+
+.terceiraParte {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.blocos {
+  background-color: #698870;
+  padding: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+
+.blocos:hover {
+  background-color: #819e88;
+}
+
+.final {
+  background-color: #698870;
+  background-color: #7fa588;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  border-radius: 10px;
+}
+
+h3 {
+  margin: 5px;
+}
+
+p {
+  margin: 2px;
+  margin: 0px !important;
+}
+
+/* td {
   border-right: 1px solid rgb(211, 207, 207);
   border-left: 1px solid rgb(211, 207, 207);
   border-bottom: 1px solid rgb(211, 207, 207);
@@ -104,7 +205,7 @@ th {
   text-align: center;
   padding: 5px;
   margin: 0px;
-}
+} */
 
 #regulament {
   padding: 20px;
@@ -112,6 +213,8 @@ th {
 
 .title-regulament {
   text-align: center;
+  margin-top: 20px !important;
+  color: black !important;
 }
 
 #form-bilhete {
@@ -124,173 +227,14 @@ th {
   padding-right: 300px;
 }
 
-#mais {
+.final p {
+  margin-right: 20px !important;
+}
+
+#pID {
+  margin-right: 0px !important;
+}
+
+/* #mais {
   background-color: rgb(209, 245, 245);
-}
-
-@media only screen and (max-width: 800px){
-  #header{
-    width: 150vw !important;
-  }
-  #logo {
-    height: 100px !important;
-    width: 200px !important;
-  }
-  .link {
-    font-size: 130% !important;
-  }
-  #search {
-    height: 35px !important;
-    width: 140%;
-  }
-  #lupa {
-    width: 40px;
-  }
-  #input-search {
-    font-size: 130%;
-    border: 1px solid black;
-  }
-  #tablee {
-    width: 140%;
-    font-size: 130%;
-  }
-  td {
-    border-right: 1px solid black;
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
-  }
-  th {
-    border-right: 1px solid rgb(0, 0, 0);
-    border-left: 1px solid rgb(0, 0, 0);
-  }
-  .title-regulament {
-    width: 150%;
-    font-size: 150%;
-  }
-  #regulament {
-    width: 145%;
-    font-size: 160%;
-  }
-  #form-bilhete {
-    width: 150%;
-    font-size: 160%;
-  }
-  #input-bilhete {
-    font-size: 100%;
-    border: 1px solid black;
-  }
-  #button-bilhete {
-    width: 100px;
-    font-size: 90%;
-  }
-}
-
-@media only screen and (max-width: 606px){
-  #header{
-    width: 290vw !important;
-  }
-  #logo {
-    height: 150px !important;
-    width: 310px !important;
-  }
-  .link {
-    font-size: 200% !important;
-  }
-  #search {
-    height: 70px !important;
-    width: 280%;
-  }
-  #lupa {
-    width: 70px;
-  }
-  #input-search {
-    font-size: 200%;
-    border: 2px solid black;
-  }
-  #tablee {
-    width: 280%;
-    font-size: 270%;
-  }
-  .title-regulament {
-    width: 300%;
-    font-size: 250%;
-  }
-  #regulament {
-    width: 280%;
-    font-size: 280%;
-  }
-  #form-bilhete {
-    width: 300%;
-    font-size: 300%;
-  }
-  #input-bilhete {
-    font-size: 100%;
-    border: 1px solid black;
-  }
-  #button-bilhete {
-    width: 200px;
-    font-size: 90%;
-  }
-}
-
-@media only screen and (max-width: 430px){
-  #header{
-    width: 380vw !important;
-  }
-  #search {
-    width: 360%;
-  }
-  #input-search {
-    font-size: 250%;
-  }
-  #tablee {
-    width: 370%;
-    font-size: 300%;
-  }
-  .title-regulament {
-    width: 300%;
-    font-size: 250%;
-  }
-  #regulament {
-    width: 280%;
-    font-size: 280%;
-  }
-  #form-bilhete {
-    width: 300%;
-    font-size: 300%;
-  }
-  #input-bilhete {
-    font-size: 100%;
-    border: 1px solid black;
-  }
-  #button-bilhete {
-    width: 200px;
-    font-size: 90%;
-  }
-  .title-regulament {
-    width: 370%;
-    font-size: 280%;
-  }
-  #regulament {
-    width: 360%;
-    font-size: 300%;
-  }
-  #form-bilhete {
-    width: 300%;
-    font-size: 300%;
-  }
-  #input-bilhete {
-    font-size: 100%;
-    border: 1px solid black;
-  }
-  #button-bilhete {
-    width: 200px;
-    font-size: 90%;
-  }
-}
-
-@media only screen and (max-width: 346px){
-  #header{
-    width: 420vw !important;
-  }
-}
+} */
