@@ -258,6 +258,9 @@ p {
     margin-left: 50px !important;
     margin-right: 50px !important;
   }
+  h2 {
+    font-size: 12px !important;
+  }
 }
 
 @media only screen and (max-width: 540px){
@@ -273,6 +276,9 @@ p {
     width: 600px !important;
     text-align: center !important;
     align-items: center !important;
+  }
+  h2 {
+    font-size: 12px !important;
   }
 }
 
