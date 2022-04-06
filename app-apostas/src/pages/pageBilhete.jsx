@@ -4,7 +4,7 @@ import Head from "../components/head";
 class pageBilhete extends React.Component {
   render() {
     return(
-      <div>
+      <div className="pageInitial">
         <Head />
         <h3 className="title-regulament">CONFERIR BILHETE</h3>
         <form id="form-bilhete">
