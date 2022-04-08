@@ -261,6 +261,9 @@ p {
   h2 {
     font-size: 12px !important;
   }
+  #user-header {
+    font-size: 70%;
+  }
 }
 
 @media only screen and (max-width: 540px){
@@ -285,4 +288,15 @@ p {
 #button-login {
   width: 100px !important;
   font-size: 8px !important;
+}
+
+#user-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#button-user {
+  font-size: 70%;
+  margin-left: 10px;
 }
